@@ -1,0 +1,14 @@
+{
+    "name": "janis/api",
+    "description": "The Janis API Framework.",
+    "keywords": ["framework", "API", "janis"],
+    "type": "project",
+    "require": {
+        "php": ">=5.3.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "Janis\\Api\\": "src/"
+        }
+    }
+}
